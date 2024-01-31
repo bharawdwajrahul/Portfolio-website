@@ -1,0 +1,175 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4; /* Light Gray Background */
+}
+
+/* Header */
+header {
+    background-image: url('wp4748439.webp');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+header h1, header p {
+    color: #ffffff; /* Bright white text */
+    text-shadow: 2px 2px 4px #000000; /* Black shadow for readability */
+}
+
+
+header h1 {
+    margin-bottom: 0.5rem;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #8b0000; /* Darker Shade of Red */
+    color: #fff;
+    text-align: center;
+    padding: 0.5rem 0;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ff69b4; /* Dark Pink for Hover */
+}
+
+/* Sections */
+section {
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #d10000; /* Dark Scarlet Red */
+}
+
+/* Specific Section Styles */
+#about {
+    background-color: #88BDBC; 
+}
+
+#education {
+    background-color: #FFFFFF; /* Lighter Pink */
+}
+
+#skills {
+    background-color: #88BDBC; /* Soft Red */
+}
+
+#experience {
+    background-color: #FFFFFF; /* Very Light Red */
+}
+
+#projects {
+    background-color: #88BDBC; /* Very Light Red */
+}
+
+/* Skills, Experience, and Projects */
+section ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+/* Contact Form */
+#contact form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#contact input, #contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#contact button {
+    background-color: #d10000; /* Dark Scarlet Red */
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact button:hover {
+    background-color: #8b0000; /* Darker Shade of Red */
+}
+
+/* Footer */
+footer {
+    background-color: #333; /* Dark Gray */
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+    justify-content: start;
+    padding: 20px;
+}
+
+.skill-category {
+    background: #f0f0f0; /* Light background for each skill category */
+    border-left: 5px solid #88BDBC; /* Accent color */
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.skill-category h3 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.skill-category ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0;
+}
+
+.skill-category li {
+    line-height: 1.6;
+    color: #555; /* Subdued text color for readability */
+}
+
+.skill-category li:hover {
+    color: #88BDBC; /* Interactive hover effect */
+    cursor: pointer;
+}
